@@ -1,0 +1,13 @@
+.challenge-componet *{
+    padding: 5px;
+    margin: 5px;
+}
+
+.challenge-componet span{
+    font-weight: bold;
+}
+
+.challenge-componet button{
+    font-weight: bold;
+    width: 100px;
+}
