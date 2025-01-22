@@ -16,30 +16,30 @@ const Challenge = () => {
   };
 
   return (
-      <div className="challenge-componet">
-        <input
-          id="number1"
-          type="text"
-          ref={primeiroNumero}
-          placeholder="Digite o primeiro numero"
-        />
-        <span> + </span>
-        <input
-          id="number2"
-          type="text"
-          ref={segundoNumero}
-          placeholder="Digite o segundo numero"
-        />
-        <button id="btnSomar" onClick={somar}>
-          {"Somar"}
-        </button>
-        <input
-          id="result"
-          type="text"
-          ref={resultado}
-          placeholder="Resultado da Soma"
-        />
-      </div>
+    <div className="challenge-componet">
+      <input
+        id="number1"
+        type="text"
+        ref={primeiroNumero}
+        placeholder="Digite o primeiro numero"
+      />
+      <span> + </span>
+      <input
+        id="number2"
+        type="text"
+        ref={segundoNumero}
+        placeholder="Digite o segundo numero"
+      />
+      <button id="btnSomar" onClick={somar}>
+        {"Somar"}
+      </button>
+      <input
+        id="result"
+        type="text"
+        ref={resultado}
+        placeholder="Resultado da Soma"
+      />
+    </div>
   );
 };
 
